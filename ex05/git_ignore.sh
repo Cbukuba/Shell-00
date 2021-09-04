@@ -1,3 +1,3 @@
 #!/bin/bash
-git ls-files -i --exclude=ex05
+git ls-files -o -i --exclude-standard
 
