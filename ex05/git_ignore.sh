@@ -1,2 +1,2 @@
-#!/bin/sh
-find . -exec git check-ignore {} + | xargs -I{} basename{}
+#!/bin/bash
+git ls-files -i --exclude=ex05
